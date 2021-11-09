@@ -20,6 +20,15 @@ Welcome to Chath(sotoro) / Charon (Charon296) Class repository
 </section>
 <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
 <script src="https://sotoro.github.io/GA_Lessons/scripts.js"></script>
+<script>
+$(function(){
+var includes = $('[data-include]');
+jQuery.each(includes, function(){
+var file = '/' + $(this).data('include') + '.html';
+$(this).load(file);
+});
+});
+</script>
 <div data-include="footer"></div>
 </body>
 </html>
