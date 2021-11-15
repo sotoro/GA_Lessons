@@ -113,8 +113,8 @@ a#header_home{
 	border-radius: 10px;
 	border-width: 0px;
 	padding:5px 12px;
-	font-size:clamp(1.2em,0.06vw,2em);
-	line-height: clamp(1.3em,0.07vw,2.2em);
+	font-size:clamp(1.2em,4vw,2em);
+	line-height: clamp(1.3em,5vw,2.2em);
 	transition: 1.0s;
 	background:inherit;
 	color: inherit;
@@ -125,8 +125,8 @@ a#header_home:hover{
 	border-width: 0px;
 	padding:5px 12px;
 	background-color: #aaaaaa;
-	font-size:clamp(1.2em,0.065vw,2em);
-	line-height: clamp(1.3em,0.075vw,2.2em);
+	font-size:clamp(1.3em,4.5vw,2.2em);
+	line-height: clamp(1.3em,5vw,2.2em);
 	color:#000000;
 	box-shadow: 0px 0px 5px #00000033;
 	transition:1.0s;
