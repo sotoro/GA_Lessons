@@ -73,6 +73,7 @@ a {
 	font-size:1.0em;
 	background-color: #f0f0f0;
 	transition: 1.0s;
+	line-height: 1.5em;
 	
 }
 a:hover{
@@ -83,6 +84,7 @@ a:hover{
 	font-size:1.01em;
 	transition:1.0s;
 	box-shadow: 0px 0px 5px #00000033;
+	line-height: 1.5em;
 }
 
 div#header_text, div#div_title{
@@ -92,13 +94,12 @@ div#header_text, div#div_title{
 div#div_title{
 	width:100%;
 	text-align:center;
-	font-size:clamp(1.2em,0.03vw,2em);
-	line-height: clamp(1.3em,0.04vw,2.2em);
+	font-size:clamp(1.2em,4vw,2em);
+	line-height: clamp(1.3em,5vw,2.2em);
 	margin-bottom:0px;
 }
 
 section.header{
-	width:100%;
 	margin:auto;
 	text-align:center;
 	padding: 20px 100px 30px 100px;
@@ -128,6 +129,6 @@ a#header_home:hover{
 	font-size:clamp(1.3em,4.5vw,2.2em);
 	line-height: clamp(1.3em,5vw,2.2em);
 	color:#000000;
-	box-shadow: 0px 0px 5px #00000033;
+	box-shadow: 0px 0px 10px #00000033;
 	transition:1.0s;
 }
